@@ -1,0 +1,3 @@
+[submodule "QtnProperty"]
+	path = QtnProperty
+	url = https://github.com/lexxmark/QtnProperty.git

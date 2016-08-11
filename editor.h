@@ -1,6 +1,8 @@
 #ifndef EDITOR_H
 #define EDITOR_H
 
+#include <QGraphicsView>
+#include <QRubberBand>
 #include <QtGui>
 
 class Editor : public QGraphicsView

@@ -22,7 +22,7 @@ void Editor::mousePressEvent(QMouseEvent *event)
     // левая кнопка - выделение объектов
     if(event->button() == Qt::LeftButton)
     {
-        QGraphicsItem *gi = scene()->itemAt(mapToScene(event->pos()));
+        QGraphicsItem *gi = scene()->itemAt(mapToScene(event->pos()), QTransform());
         //если попали по пустому месту, снимаем выделение со всех
         if(!gi)
         {

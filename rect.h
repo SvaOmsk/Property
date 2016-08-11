@@ -1,6 +1,7 @@
 #ifndef RECT_H
 #define RECT_H
 
+#include <QGraphicsItem>
 #include <QtGui>
 
 class Rect : public QGraphicsItem

@@ -1,6 +1,7 @@
 #ifndef LINE_H
 #define LINE_H
 
+#include <QGraphicsItem>
 #include <QtGui>
 
 class Line : public QGraphicsItem
